@@ -43,6 +43,8 @@
 }
 
 .logo {
+  object-fit: cover;
+  width: 50px;
   margin-left: 26px;
   margin-right: 48px;
 }
@@ -56,6 +58,7 @@
   height: 34px;
   width: 405px;
   border-radius: 500px;
+  border: 1px solid #555A5B;
   font-size: 13px;
   color: #555A5B;
   padding-left: 20px;
@@ -79,6 +82,7 @@
   position: absolute;
   right: 13px;
   top: 8px;
+  border: none;
 }
 
 .search__submit:focus {
