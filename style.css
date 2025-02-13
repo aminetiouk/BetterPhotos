@@ -63,6 +63,30 @@
   transition: all .2s;
 }
 
+.search__input:focus {
+  width: 425px;
+}
+
+.search__input::placeholder {
+  color: #A9B4B7;
+}
+
+.search__submit {
+  font-size: 15px;
+  color: #A9B4B7;
+  cursor: pointer;
+  transition: all .2s;
+  position: absolute;
+  right: 13px;
+  top: 8px;
+}
+
+.search__submit:focus {
+  color: #555A5B;
+}
+
+
+
 .sidebar {
   background-color: #11271F;
 
