@@ -1,0 +1,24 @@
+{
+  "name": "betterphotos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch --no-source-map main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminetiouk/BetterPhotos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aminetiouk/BetterPhotos/issues"
+  },
+  "homepage": "https://github.com/aminetiouk/BetterPhotos#readme",
+  "dependencies": {
+    "sass": "^1.85.0"
+  }
+}
