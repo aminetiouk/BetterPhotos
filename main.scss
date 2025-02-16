@@ -2,8 +2,30 @@
 $color-grey-light: #eef3f4;
 $color-grey-medium: #a9b4b7;
 $color-grey-dark: #555a5b;
+$color-accent: #2CC695;
 
 $ts: all 0.2s;
+
+// UTILITY CLASS
+.u-italic {
+  font-style: italic;
+}
+
+.u-accent {
+  color: $color-accent;
+}
+
+.u-underline {
+  text-decoration: underline;
+}
+
+.u-bold {
+  font-weight: 500;
+}
+
+.u-bolder {
+  font-weight: 700;
+}
 
 /* RESET */
 *,

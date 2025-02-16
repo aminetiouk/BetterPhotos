@@ -1,3 +1,23 @@
+.u-italic {
+  font-style: italic;
+}
+
+.u-accent {
+  color: #2CC695;
+}
+
+.u-underline {
+  text-decoration: underline;
+}
+
+.u-bold {
+  font-weight: 500;
+}
+
+.u-bolder {
+  font-weight: 700;
+}
+
 /* RESET */
 *,
 ::before,
