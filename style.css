@@ -204,6 +204,22 @@ a {
   color: #2CC695;
 }
 
+.btn {
+  background-color: #16B47F;
+  padding: 12px 0;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.btn:hover, .btn:focus {
+  background-color: #119267;
+}
+.btn__icon {
+  margin-left: 2px;
+}
+
 .gallery {
   background-color: #eef3f4;
   grid-column: 2/3;
