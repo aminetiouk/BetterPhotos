@@ -122,11 +122,50 @@ $ts: all 0.2s;
   }
 }
 
+// SIDEBAR
+
 .sidebar {
   background-color: #11271f;
 
   grid-column: 1 / 2;
   grid-row: 2 / 4;
+}
+
+.intro {
+  padding: 48px 35px 45px;
+  border-bottom: 1px solid rgba(#fff, .1);
+
+  &__text {
+    color: $color-grey-light;
+    font-size: 1rem;
+    margin-top: 12px;
+    line-height: 1.8;
+  }
+}
+
+.first-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 30px;
+
+  &__img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+    &:not(:first-child) {
+      margin-left: -8px;
+    }
+  }
 }
 
 .gallery {
