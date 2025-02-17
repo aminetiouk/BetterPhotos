@@ -350,6 +350,15 @@ a {
   bottom: 15px;
   left: 15px;
 }
+.gallery__icon {
+  color: #2CC695;
+  font-size: 11px;
+}
+.gallery__number {
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 2px;
+}
 
 .steps {
   background-color: #e7edee;
