@@ -74,8 +74,11 @@ a {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   color: #fff;
+  height: 100vh;
+  padding: 40px 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   scrollbar-width: none;
 
   &::-webkit-scrollbar {
@@ -84,11 +87,10 @@ a {
 }
 
 .app {
-  height: 1240px;
+  height: 1140px;
   width: 1030px;
   background-color: #fff;
   box-shadow: 0 25px 150px rgba(0, 0, 0, 0.65);
-  margin: 80px 0;
 
   display: grid;
   grid-template-columns: 355px 1fr;
@@ -447,13 +449,17 @@ a {
   grid-row: 3 / 4;
 
   display: flex;
+  align-items: center;
+}
+
+.step-container {
+  display: flex;
 }
 
 .step {
   text-align: center;
   padding: 0 20px;
 
-  margin-top: 8.5rem;
   flex: 1;
 
   &__icon {
